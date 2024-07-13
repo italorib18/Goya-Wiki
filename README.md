@@ -3,4 +3,6 @@
 intrigantes seres e diversos acontecimentos bizarros 
 do folclore dos memes...
 
-![mestre](src/assets/yutakasmile.png)
+<div style="text-align: center;">
+  <img src="src/assets/susyutaka.jpg" alt="mestre" />
+</div>
