@@ -3,4 +3,4 @@
 intrigantes seres e diversos acontecimentos bizarros 
 do folclore dos memes...
 
-![mestre](/assets/yutaka.jpeg)
+![mestre](src/assets/yutakasmile.png)
