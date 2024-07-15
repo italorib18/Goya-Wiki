@@ -4,7 +4,8 @@ html{
     font-family: Orbitron;
 }
 
-h1{text-align: center;
+h1{
+    text-align: center;
     background-color: #022001;
     border: 1px solid #068003;
     border-radius: 0;
@@ -55,7 +56,6 @@ p{
     margin: 30px;
 }
 
-
 .posterfull{
     background-color: #022001;
     border: 1px solid #068003;
@@ -63,18 +63,12 @@ p{
     width: 100%;
     margin: 0;
 }
+
 .posterfull p{
     text-align: center;
 }
 
-#sp{
-    height: 250px;
-    padding: 0;
-    margin: 10px;
-    width: 50%;
-    margin-left: 25%;
-    border: 1px solid #068003;
-}
+
 
 #bikedorenato{
     width: 50%;
@@ -82,8 +76,44 @@ p{
     border: 2px solid #068003;
 }
 
+#carreto{
+    width: 50%;
+    margin: 5px;
+    margin-left: 25%;
+    border: 2px solid #068003;
+    
+}
+
 #sapo{
-    width: 100%;
-    max-height: 80vh;
-    margin-left: 0%;
+    height: 10%;
+    padding: 0;
+    margin: 10px;
+    width: 50%;
+    margin-left: 25%;
+    border: 1px solid #068003;
+}
+
+.gif{
+    margin: 10px;
+    width: 50%;
+    margin-left: 25%;
+    border: 2px solid #068003; 
+}
+
+.badnews{
+    background-color: #900000;
+    border: 1px solid #fd0d03;
+    border-radius: 0;
+    margin: 10px;
+    text-align: center;
+}
+
+.caralho{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cabível{
+    width: 96%;
 }
