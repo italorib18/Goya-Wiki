@@ -117,3 +117,33 @@ p{
 .cabível{
     width: 96%;
 }
+
+.posterfull-home{
+    display: flex;
+    flex-direction: row;
+    background-color: #022001;
+    border: 1px solid #068003;
+    height: 100%;
+    width: 100%;
+}
+
+.container{
+    display: flex;
+    justify-content:baseline;
+    align-items: center ;
+    flex-direction: column;
+    background-color: #022001;
+    border: 1px solid #068003;
+    margin: 20px;
+    gap: 10px;
+}
+
+.poster-home{
+    background-color: #022001;
+    border: 1px solid #068003;
+    height: 100%;
+    margin: 20px;
+}
+.container > a{
+    color: white;
+}
