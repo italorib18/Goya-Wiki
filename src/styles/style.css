@@ -9,6 +9,16 @@ h1{
     background-color: #022001;
     border: 1px solid #068003;
     border-radius: 0;
+    margin: auto;
+    margin-bottom: 5px;
+}
+
+h2{
+    text-align: left;
+    background-color: #034002;
+    border: 1px solid #068003;
+    width: fit-content;
+    margin: 15px;
 }
 
 .t2{
@@ -31,8 +41,16 @@ p{
     border-radius: 0;
     border: 1px solid #068003;
     background-color: #034002;
+    text-align: justify;
     padding: 5px;
     margin: 15px;
+}
+
+img{
+    background-color: #034002;
+    border: 1px solid #068003;
+    height: 300px;
+    margin: auto;
 }
 
 .botão{
@@ -44,10 +62,7 @@ p{
     font-family: Orbitron;
 }
 
-#bait{
-    background-color: red;
-    color: white;
-}
+
 
 .poster{
     background-color: #022001;
@@ -57,11 +72,13 @@ p{
 }
 
 .posterfull{
+    display: flex;
+    flex-direction: column;
     background-color: #022001;
     border: 1px solid #068003;
     height: 100%;
     width: 100%;
-    margin: 0;
+    margin: auto;
 }
 
 .posterfull p{
@@ -85,7 +102,7 @@ p{
 }
 
 #sapo{
-    height: 10%;
+    height: auto;
     padding: 0;
     margin: 10px;
     width: 50%;
@@ -123,7 +140,7 @@ p{
     flex-direction: row;
     background-color: #022001;
     border: 1px solid #068003;
-    height: 100%;
+    height: 80vh;
     width: 100%;
 }
 
@@ -141,7 +158,6 @@ p{
 .poster-home{
     background-color: #022001;
     border: 1px solid #068003;
-    height: 100%;
     margin: 20px;
 }
 .container > a{
