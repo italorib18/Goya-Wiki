@@ -4,61 +4,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Eventos</title>
-    <link rel="stylesheet" href="../styles/evento-style.css">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="../styles/eventos.css">
 </head>
 <body>
-    <header>
-        <div id="logo">
-            <a href="../../index.html" id="logo">
-                Goya    
-             </a>
+    <!-- Navigation -->
+    <nav>
+        <div>
+            <a href="../../index.html">
+                <img id="logo" src="../assets/goyaicon.png" alt="goya icon">
+            </a>
         </div>
-        <div id="middle">
-            Eventos
+        <div class="nav-links">
+            <a href="história.html"> História</a>
+            <a href="relatos.html">Relatos</a>
+            <a href="#">Eventos</a>
         </div>
-        <div id="invisivel">
-            
+        <div class="right-link">
+            <a href="#">Github</a>
         </div>
-    </header>
-    <div class="content">
-        
-        <p id="descrição">
-            Aqui reunimos alguns casos, selecione o caso para mais informações:
-        </p>
-        
-        <nav class="coluna">
-            <a href="./O viajante.html">
-                O viajante
+    </nav>
+    <!-- content -->
+    <div class="content-container">
+        <div class="card-group">
+            <a class="card viajante" href="viajante.html">
+                <h2 class="card-title">O viajante</h2>
             </a>
-            
-            <a href="./O perseguidor.html">
-                O perseguidor
+            <a class="card animan" href="fila.html">
+                <h2 class="card-title">Fila Suspeita</h2>
             </a>
-
-            <a href="./sapo.html">
-                O sapo
-            </a>  
-
-            <a href="../pages/animan.html">
-                A fila
+            <a class="card faminto" href="faminto.html">
+                <h2 class="card-title">O Faminto</h2>
             </a>
-
-            <a href="../pages/O faminto.html">
-                O faminto
+        </div>
+        <div class="card-group">
+            <a class="card perseguidor" href="perseguidor.html">
+                <h2 class="card-title">Perseguidor</h2>
             </a>
-    
-        </nav>
-       <img src="../assets/rocky-rocky.gif" alt="the-pedra">
-        
-
+            <a class="card sapo" href="sapo.html">
+                <h2 class="card-title">Trágico sapo</h2>
+            </a>
+            <a class="card-incompleto"  href="#">
+                <h2 class="card-title">Trágico sapo</h2>
+            </a>
+        </div>
     </div>
-
-    
-
-    
 </body>
 </html>

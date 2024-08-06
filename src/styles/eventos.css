@@ -1,0 +1,88 @@
+.card-group{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: center;
+  margin: 20px;
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  width: 256px;
+  height: 350px;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+  filter: brightness(0.9);
+  animation: all 1s ease;
+}
+
+.card-incompleto{
+  width: 256px;
+  height: 350px;
+  visibility: hidden;
+  cursor: default;
+}
+.card:hover{
+
+  filter: brightness(1.1);
+  transform: scale(1.04);
+}
+
+.card-title{
+  margin: 0;
+  margin-bottom: 10px;
+  color: white;
+  text-shadow: 2px 2px black;
+}
+
+.viajante{
+  background-image: url("../assets/carreto.webp");
+  background-size: cover;
+  background-position: center;
+}
+
+.animan{
+  background-image: url("../assets/animan-studios.gif");
+  background-size: cover;
+  background-position: center;
+}
+
+.faminto{
+  background-image: url("../assets/cozinha-faminto.webp");
+  background-size: cover;
+  background-position: center;
+}
+
+.perseguidor{
+  background-image: url("../assets/bike.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.sapo{
+  background-image: url("../assets/sapo.gif");
+  background-size: cover;
+  background-position: center;
+}
+
+/* responsivity */
+
+@media (max-width: 950px){
+  .card-title{
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 600px){
+  .card-group{
+    flex-direction: column;
+    align-items: center;
+    margin: 5px;
+  }
+  .card{
+    width: 100%;
+  }
+}

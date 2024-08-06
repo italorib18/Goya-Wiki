@@ -4,41 +4,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Goya Wiki</title>
-    <link rel="stylesheet" href="src/styles/home-style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="src/styles/style.css">
 </head>
 <body>
-    <!-- header -->
-    <header>
-        <div id="logo">
-            <h1>Goya</h1>
+    <!-- Navigation -->
+    <nav>
+        <div>
+            <a href="">
+                <img id="logo" src="src/assets/goyaicon.png" alt="goya icon">
+            </a>
         </div>
-        <nav>
-            <a href="src/pages/história.html">
-                História    
-            </a>
-            <a href="src/pages/relatos.html">
-                Relatos
-            </a>
-            <a href="src/pages/eventos.html">
-                Eventos
-            </a>
-        </nav> 
-        <a id="github" href="#">Github</a>
-    </header>
-        
-    <div class="painel">
+        <div class="nav-links">
+            <a href="src/pages/história.html"> História</a>
+            <a href="src/pages/relatos.html">Relatos</a>
+            <a href="src/pages/eventos.html">Eventos</a>
+        </div>
+        <div class="right-link">
+            <a href="#">Github</a>
+        </div>
+    </nav>
+    <!-- content -->
+    <div class="content-container">
+        <h1 class="title">Bem vindo a Goya Wiki</h1>
+        <div class="flex-image">
+            <div>
+                <p>Aqui estão catalogados os mais intrigantes e bizarros acontecimentos já vistos por aí. <em>A Goya wiki tem como o objetivo apenas trazer a tona os eventos ocultos que acontecem no mundo.</em> Tome cuidado ao desbravar os eventos, relatos e histórias, aqui listados... Considere isso um <strong>Aviso.</strong></p>
+            </div>
+            <img id="goyaimage" src="src/assets/goya-street.webp" alt="goya-street">
+        </div>
         <div class="content">
-            <h2>O que é a Goya?</h2>
-            <p>Ninguem sabe... Explore nossos relatos,</p>
-            <p> histórias e eventos. E tome suas próprias</p>
-            <p>conclusões...</p>
+            <h1 class="title">O que é a Goya?</h1>
+            <p>Ninguém sabe ao certo. Por isso, nós separamos todas as informações de procedências duvidosas, 
+                necessárias para que você possa tirar suas próprias conclusões. A partir daqui você está por conta própria...</p>
         </div>
-        <img src="src/assets/goya-street.webp" alt="goya-street">
     </div>
-    
+    <footer>
+        <p>(c) Todos os direitos reservados Shrek Corporation.</p>
+        <p>Obrigado por visitar a Goya.</p>
+    </footer>
 </body>
 </html>
 <!-- Bem, nunca houve um consenso sobre o que de fato é a Goya. 
