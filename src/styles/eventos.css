@@ -68,6 +68,12 @@
   background-position: center;
 }
 
+.fabrica{
+  background-image: url("../assets/fabrica-do-macho.webp");
+  background-size: cover;
+  background-position: center;
+}
+
 /* responsivity */
 
 @media (max-width: 950px){

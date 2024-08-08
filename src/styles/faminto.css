@@ -1,0 +1,20 @@
+img{
+    border-radius: 7px;
+}
+.porte{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.fotos{
+    margin: 10px 0 10px 0;
+}
+#lado-bom{
+    color: blue;
+}
+#lado-mau{
+    color: red;
+}
+p{
+    text-align: justify;
+}

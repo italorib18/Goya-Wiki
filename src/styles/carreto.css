@@ -1,0 +1,27 @@
+.content-container{
+    flex-wrap: wrap;
+}
+#texto-carreto{
+    text-align: justify;
+    margin-right: 10px;
+}
+#carreto{
+    border-radius: 7px;
+}
+#apresentação{
+    margin-bottom: 15px;
+}
+.caption{
+    background-color: rgb(28, 28, 28);
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 5px;
+    margin: 10px 0 10px 0;
+    width: fit-content;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .16), 0 0 0 1px rgba(0, 0, 0, .08);
+}
+.visão{
+    color: green;
+}
+/* responsivity

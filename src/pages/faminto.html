@@ -5,62 +5,80 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>O faminto</title>
     <!--estilo da página-->
-    <link rel="stylesheet" href="../styles/style-geral.css">
+    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="../styles/faminto.css">
     <!--Fonte da página-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <div id="filhadaputa">
-            <a href="../../index.html" id="logo">
-               Goya    
+    <!--Navigation-->
+    <nav>
+        <div>
+            <a href="../../index.html">
+                <img id="logo" src="../assets/goyaicon.png" alt="goya icon">
             </a>
         </div>
-        <h1 id="fome">
-            O faminto
-        </h1> 
-        <div id="porra">
-            <a href="eventos.html" id="retorno">
-                Eventos
-            </a>
+        <div class="nav-links">
+            <a href="história.html"> História</a>
+            <a href="relatos.html">Relatos</a>
+            <a href="eventos.html">Eventos</a>
         </div>
-    </header>
-    <div class="content">
-        <h2>
+        <div class="right-link">
+            <a href="https://github.com/italorib18/Goya-Wiki">Github</a>
+        </div>
+    </nav>
+    <!--Content-->
+    <div class="content-container">
+        <h1 class="title">
             Quem é o faminto?
-        </h2>
+        </h1>
         <p>
             O faminto é uma criatura que aparenta ser um cão, sua característica principal é estar sempre com fome.
         </p>
-        <h2>
+        <h2 class="caption">
             Como encontrá-lo?
         </h2>
-        <p>
-            Ao caminhar pelas ruas da Goya, você pode encontrar um pacote de carne no chão, ao pegá-lo você pode ativar o <span id="o-evento">Evento do faminto</span>.
-        </p>
-        <div class="imagem">
-            <img src="../assets/carne-faminto.webp" alt="carne do faminto">
+        <div class="porte">
+            <p>
+                Ao caminhar pelas ruas da Goya, você pode encontrar um pacote de carne no chão, ao pegá-lo você pode ativar
+                o <span id="o-evento">Evento do faminto</span>.
+            </p>
+            <div id="imagem">
+                <img class="fotos" src="../assets/carne-faminto.webp" alt="carne do faminto">
+            </div>
+            <h2 class="title">
+                O que acontece?
+            </h2>
+            <p>
+                Se você pegar a carne e levar consigo, existe uma possibilidade de escutar batidas ao longe, se você for
+                curioso
+                o bastante e seguir o som das batidas, você irá se encontrar com o faminto em uma sala escura, batendo a
+                colher
+                numa panela, demonstrando sua fome.
+            </p>
+            <div class="imagem">
+                <img class="fotos" src="../assets/o-faminto.gif" alt="O faminto">
+            </div>
+            <p>
+                Agora você só tem uma opção, saciar a fome dele antes que seja tarde demais. Perto da sala existe uma
+                cozinha
+                com um fogão e utensilios, pegue a carne e prepare.
+            </p>
+            <div class="imagem">
+                <img class="fotos" src="../assets/cozinha-faminto.webp" alt="cozinha do faminto">
+            </div>
+            <p>
+                Quando a carne estiver pronta, ponha em um prato e sirva ao faminto, ele irá avaliar suas habilidades. Se
+                você
+                foi bem, ele <span id="lado-bom">te deixa ir</span>, mas, se você foi mal, <span id="lado-mau">você
+                    morre.</span>
+            </p>
         </div>
-        <h2>
-            O que acontece?
-        </h2>
-        <p>
-            Se você pegar a carne e levar consigo, existe uma possibilidade de escutar batidas ao longe, se você for curioso o bastante e seguir o som das batidas, você irá se encontrar com o faminto em uma sala escura, batendo a colher numa panela, demonstrando sua fome. 
-        </p>
-        <div class="imagem">
-            <img src="../assets/o-faminto.gif" alt="O faminto">
-        </div>
-        <p>
-            Agora você só tem uma opção, saciar a fome dele antes que seja tarde demais. Perto da sala existe uma cozinha com um fogão e utensilios, pegue a carne e prepare.
-        </p>
-        <div class="imagem">
-            <img src="../assets/cozinha-faminto.webp" alt="cozinha do faminto">
-        </div>
-        <p>
-            Quando a carne estiver pronta, ponha em um prato e sirva ao faminto, ele irá avaliar suas habilidades. Se você foi bem, ele <span id="lado-bom">te deixa ir</span>, mas, se você foi mal, <span id="lado-mau">você morre.</span>
-        </p>
+    
+    
+    
     </div>
 </body>
 </html>

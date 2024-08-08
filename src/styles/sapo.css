@@ -1,0 +1,13 @@
+#sapo{
+    border-radius: 7px;
+}
+.centro{
+    text-align: center;
+    margin: 10px 0 10px 0;
+}
+.badnews{
+    color: red;
+}
+p{
+    text-align: justify;
+}
