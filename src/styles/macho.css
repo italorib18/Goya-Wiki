@@ -1,0 +1,14 @@
+.centro{
+    text-align: center;
+    margin: 10px 0 10px 0;
+}
+.badnews{
+    color: red;
+}
+#ogro{
+    height: 100vh;
+    
+}
+.esconde{
+    display: none;
+}

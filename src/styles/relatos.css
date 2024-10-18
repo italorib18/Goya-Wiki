@@ -1,0 +1,13 @@
+.centro{
+    text-align: center;
+    margin: 10px 0 10px 0;
+}
+.folha{
+    background-color: white;
+    border-radius: 2px;
+    padding: 15px;
+}
+.letra{
+    color: black;
+    margin-bottom: 3px;
+}

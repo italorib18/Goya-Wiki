@@ -1,4 +1,4 @@
-#recusa{
+.recusa{
     color: rgb(255, 0, 0);
 }
 #aviso{
@@ -13,4 +13,11 @@
     margin: 0;
     width: fit-content;
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .16), 0 0 0 1px rgba(0, 0, 0, .08);
+}
+.centro{
+    text-align: center;
+    margin: 10px 0 10px 0;
+}
+img{
+    margin-bottom: 5%;
 }
