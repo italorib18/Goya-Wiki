@@ -74,6 +74,23 @@
   background-position: center;
 }
 
+.esgoto{
+  background-image: url("../assets/esgotos.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.posto{
+  background-image: url("../assets/posto\ de\ gasolina.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.estacionamento{
+  background-image: url("../assets/estacionamento.jpg");
+  background-size: cover;
+  background-position: center;
+}
 /* responsivity */
 
 @media (max-width: 950px){
